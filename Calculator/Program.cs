@@ -47,7 +47,7 @@ namespace Calculator
                     Console.WriteLine(addResult);
                     break;
                 case "/":
-                    var divResult = 1;
+                    double divResult = 1;
                     foreach (var num in userNumbers)
                     {
                         divResult = int.Parse(num) / divResult;
